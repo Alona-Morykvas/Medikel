@@ -1,0 +1,12 @@
+.regular_background_image {
+  background-image: url(./background_img/image.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+.main_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+}
