@@ -1,0 +1,17 @@
+.dropdown_list {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: none;
+}
+.dropdown_item {
+  color: rgba(99, 102, 241, 1);
+  border: 2px solid rgba(99, 102, 241, 1);
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: white;
+}
+.nav_menu_flex li:hover .dropdown_list {
+  display: block;
+  position: absolute;
+}
