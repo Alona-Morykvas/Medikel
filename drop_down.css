@@ -1,8 +1,20 @@
+.dropdown_list li {
+  position: relative;
+  display: block;
+}
+.dropdown_list li a {
+  padding: 10px 26px;
+  text-align: center;
+  display: block;
+  font-size: 17px;
+}
 .dropdown_list {
   margin: 0;
   padding: 0;
-  position: relative;
+  z-index: 999;
+  position: absolute;
   display: none;
+  
 }
 .dropdown_item {
   color: rgba(99, 102, 241, 1);
@@ -13,5 +25,9 @@
 }
 .nav_menu_flex li:hover .dropdown_list {
   display: block;
-  position: absolute;
+}
+
+ul.dropdown_list li a:hover {
+  background-color: rgba(99, 102, 241, 1);
+  color: white;
 }
