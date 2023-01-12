@@ -111,18 +111,19 @@ hr {
 }
 
 /* First section */
-.background_image {
-  background: url(./background_img/image.svg) no-repeat right;
-  background-size:contain;
-  padding: 55px 0 0 0;
-  position: relative;
-  
+.regular_background_img {
+  background: 
+  linear-gradient(107.03deg, rgba(69, 99, 255, 0.075) 2.3%, 
+  rgba(248, 83, 221, 0.05) 136.36%), 
+  url(./background_img/image.svg) no-repeat left 450px top 55px;
+  background-size: contain;
 }
 .title_flex {
   display: flex;
   flex-direction: column;
   max-width: 531px;
   width: 100%;
+  padding-top: 126px;
 }
 
 .title_flex h1 {
@@ -130,3 +131,119 @@ hr {
   color: rgba(32, 31, 80, 1);
   line-height: 106px;
 }
+
+.title_flex p {
+  color: rgba(136, 136, 136, 1);
+  width: 465px;
+  height: 44px;
+  left: 135px;
+  top: 573px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  margin-bottom: 193px;
+}
+
+/* booking and article section */
+  .booking_bar {
+    max-width: 770px;
+    width: 100%;
+    padding: 29px 20px 40px 20px;
+    position:absolute;
+    top: 825px;
+    left: 135px;
+    background-color:rgba(255, 255, 255, 1);
+    border-radius: 15px;
+  }
+
+  .booking_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .top_book {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .top_book button {
+    background-color: rgba(99, 102, 241, 1);
+    max-width: 125px;
+    width: 100%;
+    padding: 9px 23px;
+    border: 1px solid rgba(99, 102, 241, 1);
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    white-space: nowrap;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 140%;
+  }
+
+  .bottom_book {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .frame_book {
+    border: 1px solid rgba(238, 238, 238, 1);
+    border-radius: 7px;
+    padding: 9px 26.33px 8px 10px;
+    max-width: 233.33px;
+    width: 100%;
+    max-height: 60px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .frame_book h3 {
+    margin: 0;
+    font-family: sans-serif;
+    width: 119px;
+    height: 43px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: rgba(0, 0, 0, 1);
+    white-space: nowrap;
+  }
+  .frame_book h3 span {
+    color: rgba(136, 136, 136, 1);
+  }
+
+  .img_book {
+    max-width: 40px;
+    width: 100%;
+  }
+
+
+  .article_wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    width: 100%;
+    position: relative;
+    margin-top: 197px;
+  }
+
+  .article {
+    max-width: 370px;
+    width: 100%;
+    padding: 50px 30px 45px 30px;
+  }
+
+  .article_second {
+    max-width: 370px;
+    width: 100%;
+    margin: 0 30px 0 30px;
+    background-image: linear-gradient(rgba(69, 99, 255, 0.075), rgba(248, 83, 221, 0.075));
+    padding: 50px 30px 45px 30px;
+  }
+
